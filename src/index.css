@@ -1,0 +1,278 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #F2F2F2;
+}
+
+.container{
+  max-width: 503px;
+  margin: 0px auto;
+  overflow: auto;
+  min-height: fit-content;
+  padding: 0px;
+  margin-top: -1rem;
+  border: 1px solid #CCCCCC;
+  border-top: none;
+  background-color: #ffffff;
+}
+
+/* top */
+.top {
+  color: #1F2021;
+  text-align: center;
+
+}
+
+.top h1{
+  font-weight: 400;
+  height: 1.5rem;
+}
+
+.top p{
+  font-weight: 100;
+  color: #667183;
+}
+
+/* swap */
+.swap-main nav{
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  color: #1F2021;
+
+}
+
+.swap-main nav ul.swap{
+  border-radius: 17px 17px 0 0;
+  text-align: center;
+  width: 210px;
+  line-height: 4rem;
+  cursor: pointer;
+  border: 1px solid #CCCCCC;
+  border-top: 9px solid #12A366;
+  background-color: #ffffff;
+
+}
+
+.swap-main nav ul.pools{
+  border-radius: 17px 17px 0 0;
+  text-align: center;
+  width: 210px;
+  line-height: 4rem;
+  cursor: pointer;
+  border: 1px solid #CCCCCC;
+  background-color: #ffffff;
+
+}
+
+.swap-main nav ul li{
+ 
+  text-decoration: none;
+  list-style: none;
+}
+
+/* button */
+.btn {
+  padding: 10px 20px;
+  margin-left: 11.5rem;
+  text-decoration: none;
+}
+
+.btn-1 {
+  display: inline-block;
+  width: 3.5rem;
+  border: 1px solid #12A366;
+  border-left: 5px solid #12A366;
+  color: #12A366;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+.btn-2 {
+  display: inline-block;
+  width: rem;
+  border: 1px solid #3066FF;
+  border-left: 5px solid #3066FF;
+  color: #3066FF;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+.btn-3 {
+  display: inline-block;
+  width: 6rem;
+  border: 1px solid #DD9300;
+  border-left: 5px solid #DD9300;
+  color: #DD9300;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+/* Swapping */
+
+label{
+  margin-left: 21px;
+}
+
+input{
+  font-weight: 100;
+  padding-top: 1.2rem;
+}
+
+input::placeholder{
+  background-color: #F7F7F7;
+}
+
+.input-flex{
+  display: flex;
+  justify-content: space-between;
+  width: 27rem;
+  height: 3.7rem;
+  margin: 25px;
+  margin-top: 0.5rem;
+  padding: 3px 7px;
+  font-size: 17px;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+  background-color: #F7F7F7;
+}
+
+.swap-form{
+  padding-right: 25rem;
+  font-weight: 100;
+  color: #667183;
+}
+
+.swap-form input{
+  font-size: 17px;
+  border: none;
+  background-color: #F7F7F7;
+}
+
+.span-end{
+  width: 25%;
+  padding-left: 1rem;
+  border-radius: 38px 7px 7px 38px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.span-end:hover{
+  border: 1px solid #667183;
+
+}
+
+span p{
+  height: 0.001rem;
+  font-size: 1rem;
+  margin-top: 0.7rem;
+}
+
+span p:first-child{
+  color: #000000;
+}
+
+span p:last-child{
+  font-size: 0.8rem;
+}
+
+.balance {
+  margin: -1rem 0 0 26.5rem;
+  font-size: 0.8rem;
+  padding-top: -0.001 rem;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+/* swap-form button */
+.swap-form button{
+  border: 1px solid #cccccc;
+  border-radius: 17px;
+  background-color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 15rem;
+}
+
+/* swap-form-2 */
+.swap-form2 label{
+  margin-left: 21px;
+}
+
+.swap-form2 input{
+  font-weight: 100;
+  padding-top: 1.2rem;
+}
+
+.swap-form2 input::placeholder{
+  background-color: #F7F7F7;
+}
+
+.input-flex2{
+  display: flex;
+  justify-content: space-between;
+  width: 27rem;
+  height: 3.7rem;
+  margin: 25px;
+  margin-top: 0.5rem;
+  padding: 3px 7px;
+  font-size: 17px;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+  background-color: #F7F7F7;
+}
+
+.swap-form2{
+  padding-right: 25rem;
+  font-weight: 100;
+  color: #667183;
+}
+
+.swap-form2 input{
+  font-size: 17px;
+  border: none;
+  background-color: #F7F7F7;
+}
+
+.span-end2{
+  width: 25%;
+  margin-left: 7.8rem;
+  border-radius: 38px 7px 7px 38px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.span-end2:hover{
+  border: 1px solid #667183;
+
+}
+
+
+.swap-form2 span p{
+  height: 0.001rem;
+  font-size: 1rem;
+  margin-top: 0.7rem;
+}
+
+.swap-form2 span p:first-child{
+  color: #000000;
+}
+
+.swap-form2 span p:last-child{
+  font-size: 0.8rem;
+}
+
+.balance2 {
+  margin-top: 4rem;
+  margin-left: -3rem;
+  font-size: 0.8rem;
+  padding-top: -0.001 rem;
+}
