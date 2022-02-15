@@ -1,7 +1,7 @@
 // import usdc from '../assets/img/usdc'
 import {FaAngleDown} from 'react-icons/fa'
 import {FaArrowDown} from 'react-icons/fa'
-
+import {FaArrowsAltH} from 'react-icons/fa'
 
 const Swapping = () => {
   return (
@@ -57,6 +57,40 @@ const Swapping = () => {
       </div>
       </div>
     </form>
+      <div className='exchange'>
+        <div className="form-control-check">
+          <input type='checkbox'/>
+          <label>Skip unwrap WEGLD</label>
+        </div>
+        <div className="exchange-main">
+            <div className='exchange-flex'>
+            <div className="exchange-rate">
+              <p>Exchange Rate</p>
+              <p>Slippage</p>
+            </div>
+            <div className='exchange-flex'>
+              <p>1 EGLD ≃ 193.8774 USDC($193.87)</p>
+              <h3><FaArrowsAltH 
+                style={{color: 'blue', cursor: 'pointer'}} 
+              /></h3>
+              <p>1%</p>
+            </div>
+            </div>
+            <hr>
+            </hr>
+            <div>
+              <div>
+                <p>More Details</p>
+              </div>
+              <div><h3><FaAngleDown 
+                style={{color: 'blue', cursor: 'pointer'}} 
+                /></h3>
+              </div>
+            </div>
+
+          </div>
+          
+      </div>
 
     </form>
     

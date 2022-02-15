@@ -276,3 +276,31 @@ span p:last-child{
   font-size: 0.8rem;
   padding-top: -0.001 rem;
 }
+
+.form-control-check{
+  width: 20rem;
+  margin-left: -50px;
+}
+
+.form-control-check label{
+  color: #000000;
+}
+
+.exchange-main{
+  font-size: 15px;
+  width: 28rem;
+  height: 11rem;
+  margin-left: 1.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+}
+
+.exchange-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+hr{
+  width: 25rem;
+  color: #1F2021;
+}
