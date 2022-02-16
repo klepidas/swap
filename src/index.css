@@ -6,15 +6,17 @@ body {
 }
 
 .container{
-  max-width: 503px;
+  width: 503px;
   margin: 0px auto;
-  overflow: auto;
-  min-height: fit-content;
+  height: 42rem;
   padding: 0px;
   margin-top: -1rem;
+  margin-bottom: 6rem;
   border: 1px solid #CCCCCC;
   border-top: none;
+  border-radius: 0 0 17px 17px;
   background-color: #ffffff;
+  
 }
 
 /* top */
@@ -81,37 +83,37 @@ body {
 
 .btn-1 {
   display: inline-block;
-  width: 3.5rem;
+  width: 3rem;
   border: 1px solid #12A366;
   border-left: 5px solid #12A366;
   color: #12A366;
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 10px 10px;
+  padding: 10px 5px;
   margin: 5px;
 }
 
 .btn-2 {
   display: inline-block;
-  width: rem;
+  width: 5.3rem;
   border: 1px solid #3066FF;
   border-left: 5px solid #3066FF;
   color: #3066FF;
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 10px 10px;
+  padding: 10px 5px;
   margin: 5px;
 }
 
 .btn-3 {
   display: inline-block;
-  width: 6rem;
+  width: 5.7rem;
   border: 1px solid #DD9300;
   border-left: 5px solid #DD9300;
   color: #DD9300;
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 10px 10px;
+  padding: 10px 5px;
   margin: 5px;
 }
 
@@ -157,8 +159,8 @@ input::placeholder{
 }
 
 .span-end{
-  width: 25%;
-  padding-left: 1rem;
+  width: 10rem;
+  padding-left: 0.1rem;
   border-radius: 38px 7px 7px 38px;
   background-color: #ffffff;
   display: flex;
@@ -166,7 +168,15 @@ input::placeholder{
 }
 .span-end:hover{
   border: 1px solid #667183;
+  cursor: pointer;
 
+}
+
+.span-end img{
+  width: 3.2rem;
+  height: 3.2rem;
+  padding-top: 0.2rem;
+  padding-right: -0.1px;
 }
 
 span p{
@@ -203,6 +213,9 @@ span p:last-child{
 }
 
 /* swap-form-2 */
+.form-control-check{
+  padding-bottom: 2rem;
+}
 .swap-form2 label{
   margin-left: 21px;
 }
@@ -243,7 +256,7 @@ span p:last-child{
 }
 
 .span-end2{
-  width: 25%;
+  width: 45rem;
   margin-left: 7.8rem;
   border-radius: 38px 7px 7px 38px;
   background-color: #ffffff;
@@ -289,18 +302,84 @@ span p:last-child{
 .exchange-main{
   font-size: 15px;
   width: 28rem;
-  height: 11rem;
+  height: 7.5rem;
   margin-left: 1.5rem;
   border: 1px solid #cccccc;
   border-radius: 7px;
+  box-shadow: #667183;
 }
 
-.exchange-flex{
+.exchange-flex-1{
   display: flex;
   justify-content: space-between;
+  padding-right: 1rem;
+
+}
+
+.exchange-rate{
+  padding-left: 1rem;
+  text-align: left;
+  line-height: 0.5rem;
+}
+
+.flex-2 p:first-child{
+  color: #667183;
+}
+
+.percent p{
+  text-align: end;
+  margin-top: 0.001px;
+  color: #000000;
+}
+
+.flex-2 p{
+  display: inline-block;
+  line-height: 0.1rem;
+  text-align: right;
 }
 
 hr{
   width: 25rem;
-  color: #1F2021;
+  color: #CCCCCC;
+}
+
+.details{
+  display: flex;
+  justify-content: center;
+  margin-top: -1.1rem;
+}
+
+.details p{
+  color: #000000;
+}
+
+.details p:hover{
+  color: #3066FF;
+  cursor: pointer;
+}
+
+.connect{
+  display: flex;
+  justify-content: center;
+  width: 27rem;
+  height: 2rem;
+  margin: 25px;
+  margin-top: 2rem;
+  padding: 3px 7px;
+  font-size: 17px;
+  border: 1px solid #3066FF;
+  border-radius: 7px;
+  background-color: #3066FF;
+}
+
+.connect p {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.transact{
+  align-items: center;
+  width: 30rem;
 }

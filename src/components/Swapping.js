@@ -1,7 +1,9 @@
 // import usdc from '../assets/img/usdc'
+import usdc from './usdc.png'
 import {FaAngleDown} from 'react-icons/fa'
 import {FaArrowDown} from 'react-icons/fa'
 import {FaArrowsAltH} from 'react-icons/fa'
+import {FaBolt} from 'react-icons/fa'
 
 const Swapping = () => {
   return (
@@ -13,12 +15,13 @@ const Swapping = () => {
               <input type='text' placeholder='Amount' />
             </div>
             <div className="span-end">
-              <div><p>Img</p></div>
-              <span><p>USDC</p><p>$1.00</p></span>
+              <div><img src={usdc} /></div>
+              <div>
+              <span><p>USDC</p><p>$1.00</p></span></div>
               {/* <div><img src={usdc} /><span><p>USDC</p><p>$1.00</p></span></div> */}
-              <div><h3><FaAngleDown 
-                style={{color: 'blue', cursor: 'pointer'}} 
-                /></h3>
+              <div><p><FaAngleDown 
+                style={{color: '#4570e6', cursor: 'pointer'}} 
+                /></p>
               </div>
               </div>
           </div>
@@ -30,13 +33,13 @@ const Swapping = () => {
       <div>
         <button>
           <FaArrowDown
-          style={{color: 'blue', cursor: 'pointer'}} 
+          style={{color: '#4570e6', cursor: 'pointer'}} 
           />
         </button>
       </div>
       <form className="swap-form2">
       <div className="form-control2">
-        <label>Swap To (Est.):</label>
+        <label>SwapTo(Est.):</label>
           <div className="input-flex2">
             <div className="input-end2">
               <input type='text' placeholder='Amount' />
@@ -45,9 +48,9 @@ const Swapping = () => {
               <div><p>Img</p></div>
               <span><p>EGLD</p><p>$188.54</p></span>
               {/* <div><img src={usdc} /><span><p>USDC</p><p>$1.00</p></span></div> */}
-              <div><h3><FaAngleDown 
-                style={{color: 'blue', cursor: 'pointer'}} 
-                /></h3>
+              <div><p><FaAngleDown 
+                style={{color: '#4570e6', cursor: 'pointer'}} 
+                /></p>
               </div>
            </div>
           <div className="balance2">
@@ -63,35 +66,38 @@ const Swapping = () => {
           <label>Skip unwrap WEGLD</label>
         </div>
         <div className="exchange-main">
-            <div className='exchange-flex'>
+            <div className='exchange-flex-1'>
             <div className="exchange-rate">
               <p>Exchange Rate</p>
               <p>Slippage</p>
             </div>
-            <div className='exchange-flex'>
-              <p>1 EGLD ≃ 193.8774 USDC($193.87)</p>
-              <h3><FaArrowsAltH 
-                style={{color: 'blue', cursor: 'pointer'}} 
-              /></h3>
-              <p>1%</p>
+            <div className='exchange-flex-2'>
+              <div className='flex-2'>
+              <p>1 EGLD ≃ 193.8774 USDC($193.87) </p>
+              <p><FaArrowsAltH 
+                style={{color: '#4570e6', cursor: 'pointer'}} 
+              /></p></div>
+              <div className='percent'>
+              <p>1%</p></div>
             </div>
             </div>
             <hr>
             </hr>
-            <div>
-              <div>
-                <p>More Details</p>
-              </div>
-              <div><h3><FaAngleDown 
-                style={{color: 'blue', cursor: 'pointer'}} 
-                /></h3>
-              </div>
+            <div className='details'>
+                <p>More details</p>
+                <p><FaAngleDown 
+                style={{color: '#4570e6', cursor: 'pointer'}} 
+                /></p>
             </div>
-
           </div>
-          
       </div>
-
+      <div className='connect'>
+          <p><FaBolt 
+            style={{color: '#ffffff', cursor: 'pointer'}} 
+          /></p>
+          <p>Connect</p>
+      </div>
+        <p className='transact'>You will be asked to sign 2 transactions</p>
     </form>
     
   )
